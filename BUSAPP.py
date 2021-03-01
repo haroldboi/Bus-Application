@@ -64,7 +64,6 @@ def query(inp,ids):
 
 
 def STOPS(ids,COUNT,Y,stopcode):
-    High = 0 
     for b in buses:
         b.destroy()
     A = 0
